@@ -1,9 +1,10 @@
 .app-container {
     width: 100%;
     min-height: 100vh;
-    background: rgb(235, 227, 227);
+    background: white; /*Add background image later */ 
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }

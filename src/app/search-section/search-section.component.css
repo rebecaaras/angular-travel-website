@@ -1,8 +1,35 @@
 .container-search-section {
-    background: #ffff;
+    background: #edeef0;
+    border: 1px solid grey;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content:center;
-    margin-bottom: 300px;
+    align-items:center;
+    justify-content:left;
+    border-radius: 30px;
+    height: 60px;
+    padding: 20px;
+    width: 500px;
+}
+
+.origin-city input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 315px;
+}
+
+.max-price input {
+
+    border: none;
+    background-color: transparent;
+    
+}
+
+.max-price select {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    
 }
