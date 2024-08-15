@@ -1,10 +1,10 @@
 .container-search-section {
-    background: #edeef0;
-    border: 1px solid grey;
+    background: #f9f9f9;
+    border: 1px solid #141414;
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content:left;
+    justify-content: space-between;
     border-radius: 30px;
     height: 60px;
     padding: 20px;
@@ -17,19 +17,29 @@
     border: none;
     padding-left: 10px;
     font-size: 16px;
-    width: 315px;
+    width: 340px;
 }
 
-.max-price input {
-
-    border: none;
-    background-color: transparent;
-    
+.max-price {
+    display: flex;
+    flex-direction: row;
 }
 
-.max-price select {
-    border: none;
+.max-price input, select{
+    font-size: 18px;
     background-color: transparent;
-    font-size: 16px;
-    
+    border: none;
+    outline: none;
+}
+
+.max-price input{
+    text-align: right;
+}
+.max-price select{
+    font-size: 20px;
+    color: #222222;
+}
+
+.max-price input{
+    width: 3em;
 }

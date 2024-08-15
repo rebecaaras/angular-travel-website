@@ -1,7 +1,7 @@
 .app-container {
     width: 100%;
     min-height: 100vh;
-    background: white; /*Add background image later */ 
+    background: #f9f9f9; /*Add background image later */ 
     padding: 10px;
     display: flex;
     align-items: center;
