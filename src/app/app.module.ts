@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SearchSectionComponent } from './search-section/search-section.component';
 import { PageTitleComponent } from './page-title/page-title.component';
 import { CityCardComponent } from './city-card/city-card.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchSectionComponent,
     PageTitleComponent,
-    CityCardComponent
+    CityCardComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,

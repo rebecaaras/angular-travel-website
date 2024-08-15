@@ -9,7 +9,11 @@
     height: 60px;
     padding: 20px;
     width: 500px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.city-name {
+  width: 210px;
 }
 
 
@@ -19,5 +23,11 @@
   border-radius: 12px;
   border: 1px solid #dcdcdc;
   background: white;
+  width: 100px;
   color: #141414;
+}
+
+.container-city-card button:hover{
+    font-weight: 600;
+    border: 1px solid black;  
 }

@@ -1,0 +1,22 @@
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left, .right {
+    border: 1px solid #aaaaaa;
+    background-color: transparent;
+    width: 6em;
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.left:hover, .right:hover {
+    font-weight: 500;
+    border: 2px solid black;
+}
+  
