@@ -1,0 +1,23 @@
+.container-city-card {
+    background: #ecececc3;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 60px;
+    padding: 20px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+
+.container-city-card button{
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 12px;
+  border: 1px solid #dcdcdc;
+  background: white;
+  color: #141414;
+}

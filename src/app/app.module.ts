@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchSectionComponent } from './search-section/search-section.component';
 import { PageTitleComponent } from './page-title/page-title.component';
+import { CityCardComponent } from './city-card/city-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchSectionComponent,
-    PageTitleComponent
+    PageTitleComponent,
+    CityCardComponent
   ],
   imports: [
     BrowserModule,
